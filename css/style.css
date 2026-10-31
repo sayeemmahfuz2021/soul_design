@@ -377,7 +377,11 @@ ul {
 }
 
 textarea {
+
+
   resize: none;
+
+  /* outline: ; */
 }
 .from_right button{
   margin-top: 24px;
