@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #222831;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1236px;
+  margin: 0 auto;
+}
+
+/* =====nav css st here======= */
+#nav_bar {
+  padding: 48px 96px;
+  background-color: #222831;
+  position: relative;
+}
+
+.nav_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu ul {
+  display: flex;
+  gap: 48px;
+}
+
+.nav_menu ul li a {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 18px;
+  transition: all linear 0.3s;
+}
+
+.nav_menu ul li a:hover {
+  color: #00adb5;
+}
+
+.nav_bottom {
+  background: rgba(238, 238, 238, 0.116);
+
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* =========nav css end here========= */
+/* ===== banner css start here======= */
+#banner_part {
+  padding: 78px 111px 147px 93px;
+  background-color: #222831;
+}
+
+.banner_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 147px;
+  position: relative;
+}
+
+.banner_vector {
+  position: absolute;
+  left: -86px;
+  top: 245px;
+}
+
+.banner_left_content h2 {
+  color: #eeeeee;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 96px;
+  width: 586px;
+}
+
+.banner_left_content h2 span {
+  color: #00adb5;
+}
+
+/* =========banner button css start here========== */
+.banner_button {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.banner_button button {
+  border: none;
+  outline: none;
+  padding: 10px 32px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.banner_button button a {
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button_hire {
+  background-color: #00adb5;
+  transition: all linear 0.3s;
+}
+
+.button_hire:hover {
+  background-color: #393e46;
+}
+
+.button_cv {
+  background-color: #00adb5;
+  transition: all linear 0.3s;
+}
+
+.button_cv:hover {
+  background-color: #393e46;
+}
+
+/* =========banner button css end here========== */
+
+/* ======banner  css end here ========= */
+/* ========about me css start here========= */
+#about_me {
+  background-color: #222831;
+  padding: 50px 0 69px 0;
+  position: relative;
+}
+
+.about_me_wraper {
+  display: flex;
+  justify-content: space-between;
+  gap: 210px;
+}
+
+.about_me_left {
+  margin-top: 70px;
+  position: relative;
+}
+
+.song_icon_img {
+  position: absolute;
+  top: -180px;
+}
+
+.about_me_left h2 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #eeeeee;
+}
+
+.about_me_left h2 span {
+  color: #00adb5;
+}
+
+.lightbulb_icon {
+  position: absolute;
+  top: -4px;
+  left: 332px;
+}
+
+.about_me_left p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+  width: 389px;
+}
+
+.about_me_left p span {
+  font-size: 18px;
+}
+
+.ring_icon {
+  position: absolute;
+  top: 369px;
+  left: 235px;
+}
+
+.aboutme_bottom {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(238, 238, 238, 0.116);
+  width: 100%;
+}
+
+/* ========about me css end here========= */
+/* ========my recent section css star here===== */
+#my_recent_work {
+  padding: 248px 0px 256px 0px;
+  background-image: url(../images/myrect_back_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 150px;
+}
+
+.myrecent_text h2 {
+  color: #eeeeee;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.myrecent_text h2 span {
+  color: #00adb5;
+}
+
+/* =======my recent button css strat here==== */
+.myrecent_button {
+  display: flex;
+  gap: 16px;
+}
+
+.myrecent_button button:hover {
+  background-color: #00adb5;
+}
+
+.myrecent_button button {
+  padding: 10px 32px;
+  background: #393e46;
+  transition: all linear 0.3s;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+}
+
+.myrecent_button button a {
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* =======my recent button css end here==== */
+
+/* =======card section cs start here====== */
+.myrecent_card {
+  display: flex;
+  gap: 48px;
+  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myrecent_card .card {
+  background-color: #393e46;
+
+  width: 100%;
+  border-radius: 16px;
+  transition: all linear 0.3s;
+}
+
+.myrecent_card .card:hover {
+  scale: 1.1;
+}
+
+.card_one {
+  padding: 50px 50px;
+}
+
+.card_two {
+  padding: 41px 0;
+}
+
+.card_three {
+  padding: 50px 0;
+}
+
+/* =======card section cs end here====== */
+
+/* =========my recent section css end here====== */
+
+
+
+
+/* =======from section css srart here======== */
+#from_section {
+  padding: 158px 96px;
+  background-color: #222831;
+}
+
+.from_wraper {
+  display: flex;
+  position: relative;
+}
+
+/* =====form left css start here======= */
+.from_left {
+  width: 50%;
+  position: relative;
+}
+
+.from_left h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  width: 600px;
+  color: #eeeeee;
+}
+
+.from_left h2 span {
+  color: #00adb5;
+
+}
+
+.from_vector_img {
+  position: absolute;
+  top: 232px;
+  left: 36px;
+}
+
+.form_img_one {
+  position: relative;
+  left: 220px;
+
+}
+
+.form_img_two {
+  position: relative;
+  left: -53px;
+  top: 18px;
+}
+
+/* =======form left css end here======= */
+
+/* =====from right css start here====== */
+
+.from_right {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  gap: 25px;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.input_group label {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.input_group input,
+.input_group textarea {
+  background-color: #393E46;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+textarea {
+  resize: none;
+}
+.from_right button{
+  margin-top: 24px;
+  padding: 10px 32px;
+  background-color: #00ADB5;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  transition: all linear 0.3s;
+
+}
+.from_right button:hover{
+  background-color: #393E46;
+  
+}
+
+
+.from_right button a{
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.form_icon{
+  color: #eeeeee;
+}
+.form_bottom{
+  /* height: 2px; */
+  position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  padding: 2px 0px;
+  background: rgba(238, 238, 238, 0.116);
+  width: 100%;
+  
+} 
+.form_bottom{
+  margin-top: 5%;
+}
+/* =====form right css end here========= */
+/* =======from section css end here======== */
+
+
+
+
+
+
+/* ===========footer section css st here====== */
+#footer{
+    padding: 100px 0;
+    background-color: #222831;
+}
+.footer_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    margin: 0 auto;
+    gap: 48px;
+}
+.footer_menu ul li a{
+    color: white;
+    font-size:18px ;
+    font-weight: 400;
+    transition: all linear 0.3s;
+}
+.footer_menu ul li a:hover{
+    color: #00ADB5;
+}
+.footer_social{
+    margin-top: 38px;
+}
+.footer_social ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 264px;
+    gap: 24px;
+    
+
+}
+.common_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    background: #393E46;
+    /* padding: 15px; */
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+.common_icon:hover{
+    color: #00ADB5;
+}
+
+
+
+
+
+/* ===========footer section css end here====== *
+
+
+
+
